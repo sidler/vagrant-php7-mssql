@@ -10,4 +10,9 @@ The box fires up the apache httpd server with following port mapping:
 * 80 -> 8080
 * 443 -> 8443
 
-Make sure to adopt the mapped filesystem dir according to your needs.
+Make sure to adopt the mapped filesystem dir according to your needs:
+
+    config.vm.synced_folder "./../", "/var/www/html"
+  
+  
+  
