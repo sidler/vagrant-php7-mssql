@@ -15,4 +15,6 @@ Make sure to adopt the mapped filesystem dir according to your needs:
     config.vm.synced_folder "./../", "/var/www/html"
   
   
-  
+The box requires the vbguest plugin to be available:
+
+    vagrant plugin install vagrant-vbguest
