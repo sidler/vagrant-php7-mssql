@@ -41,7 +41,7 @@ Vagrant.configure("2") do |config|
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
 
-  config.vm.synced_folder "/Users/sidler/web/kajona_master", "/var/www/html"
+  config.vm.synced_folder "./../", "/var/www/html"
   
   # see http://stackoverflow.com/questions/43492322/vagrant-was-unable-to-mount-virtualbox-shared-folders
 
